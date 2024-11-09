@@ -1,0 +1,192 @@
+/* estilos.css */
+body {
+    text-decoration: none;
+    background-image: url('/asset/img/portadaa.jpg');
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* No repite la imagen */
+    color: #000000;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(238, 141, 241);
+    padding: 10px;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border: none;
+    box-shadow: none;
+}
+.header-title{
+    width: 120px; /* Ajusta el tamaño de las imágenes */
+    font-size: 1.2em;
+    flex: 1;
+    margin-left: 10px;
+
+}
+
+  img{
+    width: 200px;
+    height: 75px; 
+    border-radius: 8px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); 
+  }
+  
+  .busqueda img{
+    width: 30px;
+    height: 30px; 
+    border-radius: 4px; 
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center; /* Centra los elementos dentro del nav */
+    gap: 10px;
+    background-color:rgb(238, 141, 241);
+    padding: 20px 0; /* Espaciado superior e inferior */
+  }
+  
+  nav a {
+    color: #000000; /* Color de texto blanco */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 18px; /* Tamaño de fuente */
+    padding: 15px 20px; /* Relleno interno para hacer los enlaces más grandes */
+    background-color:rgb(255, 255, 255);
+    transition: background-color 0.3s; /* Transición suave */
+    border-radius: 15px;
+  }
+  
+  nav a:hover {
+    background-color: rgb(0, 0, 0); /* Cambia el fondo al pasar el mouse */
+    color: #ffffff; /* Asegura que el texto siga siendo blanco */
+  }
+  
+  .busqueda {
+    background-color:#000000;
+    color:#ffffff;
+    display: flex;
+    align-items: center;
+  }
+  
+  .busqueda input {
+    background-color:#000000;
+    color:#ffffff;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+  }
+  
+  .busqueda button {
+    background: none;
+    border: none;
+    color: #000000;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .botones-autenticacion a{
+    color: #ffffff; 
+    text-decoration: none; 
+    font-size: 18px; 
+    padding: 15px 20px; 
+    background-color:rgb(0, 0, 0);
+    transition: background-color 0.3s; 
+  }
+  
+  .botones-autenticacion:hover {
+    background-color: rgb(238, 141, 241); 
+    color: #000000;
+  }
+
+  .botones-autenticacion .registro:hover{
+    color:rgb(255, 255, 255);
+  }
+  
+  .seccion-busqueda {
+    margin-top: 2rem;
+  }
+  
+  .seccion-busqueda input {
+    padding: 1rem;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .seccion-busqueda .boton-busqueda {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    background-color: #000000;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .informacion {
+    background-color:#000000;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 2rem;
+  }
+  
+  .informacion h2 {
+    font-family: 'Roboto Mono', monospace;
+    color:#ffffff;
+    font-size: 1.8rem;
+  }
+  
+  .informacion p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1rem;
+    color: #ffffff;
+  }
+
+  .cta-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.cta-text {
+    max-width: 600px;
+    font-size: 22px;
+    color: #333;
+    line-height: 1.5;
+}
+.cta-text span {
+    color:rgb(238, 141, 241);
+}
+
+.cta-image img {
+    width: 700px;
+    height: 500px;
+    border-radius: 8px;
+}
+
+.cta-button {
+    padding: 15px 30px;
+    background-color:rgb(238, 141, 241);;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: #005fa3;
+}
+  
